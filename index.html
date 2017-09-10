@@ -1,72 +1,69 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Kevin Thaw</title>
-		<link rel="stylesheet" type="text/css" href="./css/style.css">
-		
-	</head>
 
-	<body>
-		<header>
-			<div class="container">
-				<a id="home"></a>
-				<div id="nameHeader">
-					<a href="#home"><h1>Kevin Thaw</h1></a>
-				</div>
+<head>
+	<title>Kevin Thaw</title>
+	<link rel="stylesheet" type="text/css" href="./css/style.css">
 
-				<nav>
-					<ul>
-						<li><a href="#home">Home</a></li>
-						<li><a href="#contact">Contact</a></li>
-					</ul>
-				</nav>
-			</div>
-			</header>
+</head>
 
-			<section id="home">
-				
-				<div class="container">
+<body>
+	<header>
+		<div class="container">
+			<div id="nameHeader">
+				<a href="#home">
 					<h1>Kevin Thaw</h1>
-					<p>Aspiring Software Engineer </p>
-					<a href="https://linkedin.com/in/kevinthaw" target="_blank">LinkedIn</a>
-					<a href="https://github.com/kev-th
+				</a>
+			</div>
+			<nav>
+				<ul>
+					<li><a href="#home">Home</a></li>
+					<li><a href="#contact">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<section id="home">
+		<a id="home"></a>
+		<div class="container">
+			<h1>Kevin Thaw</h1>
+			<p>Aspiring Software Engineer </p>
+			<a href="https://linkedin.com/in/kevinthaw" target="_blank">LinkedIn</a>
+			<a href="https://github.com/kev-th
 					" target="_blank">GitHub</a>
+		</div>
+	</section>
+	<section id="contact">
+		<div class="container">
+			<a id="contact"></a>
+			<h2>Contact me</h2>
+			<div class="alert">Your message has been sent.</div>
+			<form id="contactForm">
+				<div class="nameBox">
+					<label>Name</label>
+					<input id="name" type="text" name="name" required>
 				</div>
-			</section>
-
-			<section id="contact">
-				<div class="container">
-					<a id="contact"></a>
-					<h2>Contact me</h2>
-					<div class="alert">Your message has been sent.</div>
-						<form id="contactForm">
-							<div class="nameBox">
-								<label>Name</label>
-									<input id="name" type="text" name="name" required>
-							</div>
-							<br>
-							<div class="emailBox">
-								<label>Email</label>
-								<input id="email" type="email" name="email" required>
-							</div>
-							<br>
-							<div class="messageBox">
-								<label id="messageLabel">Message</label>
-								<br>
-								
-								<textarea id="message" name="message" rows="5"></textarea>
-							</div>
-							<br>
-								<button type="submit">Submit</button>
-						</form>
-					</div>
-			</section>
-
-			<footer>
-     		 <p> Copyright &copy; Kevin Thaw</p>
-    		</footer>
-    		<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
-		   <script src="./javascript/main.js" ></script>
-	</body>
+				<br>
+				<div class="emailBox">
+					<label>Email</label>
+					<input id="email" type="email" name="email" required>
+				</div>
+				<br>
+				<div class="messageBox">
+					<label id="messageLabel">Message</label>
+					<br>
+					<textarea id="message" name="message" rows="5"></textarea>
+				</div>
+				<br>
+				<button type="submit">Submit</button>
+			</form>
+		</div>
+	</section>
+	<footer>
+		<p> Copyright &copy; Kevin Thaw</p>
+	</footer>
+	<script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+	<script src="./javascript/main.js"></script>
+</body>
 
 </html>
