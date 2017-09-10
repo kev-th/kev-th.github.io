@@ -11,11 +11,15 @@ body{
 }
 
 header{
+
   background:white;
   color:black;
   padding-top:30px;
-  min-height:70px;
+  min-height:40px;
   border-bottom:black 3px solid;
+  position: fixed;
+  left:0px;
+  right:0px;
 }
 
 header a{
@@ -26,7 +30,6 @@ header a{
 }
 
 header li{
-  float:left;
   display:inline;
   padding: 0 20px 0 20px;
 }
@@ -53,11 +56,11 @@ header a:hover{
 	background-color: #42A5F5;
 	color: white;
 	text-align: center;
-	min-height: 500px;
+	min-height: 540px;
 }
 
 #home h1{
-	margin-top: 150px ;
+	margin-top: 190px ;
 	font-size: 55px;
 	margin-bottom: 0px;
 }
