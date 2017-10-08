@@ -21,7 +21,7 @@
   
 	// Get values
 	 name = getInputVal('name');
-	//var company = getInputVal('company');
+	//var company = getInputVal('email');
 	 email = getInputVal('email');
 	//var phone = getInputVal('phone');
 	 message = getInputVal('message');
